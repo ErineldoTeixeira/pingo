@@ -1,5 +1,6 @@
 *{margin:0;padding: 0;box-sizing: border-box;}
 .container{max-width: 900px;margin: auto;}
+button{border:none;background-color: inherit;}
 :root {
     /* Essa curva faz o botão "encolher" rápido e voltar com um leve balanço */
     --neo-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -9,8 +10,8 @@
 /* padrao do botao */
 .neo-btn{
     display: inline-block;
-    font-size: 16px;
     line-height: normal;
+    font-size: 16px!important;
     white-space: nowrap;
     vertical-align: middle;
     text-align: center;
@@ -19,7 +20,7 @@
     user-select: none;
     text-decoration: none;
     color: inherit;
-    border:1px solid #000;
+    /* border:1px solid #000; */
     padding:12px;
     &:hover{background-color: #b3b3b3;}
 
@@ -27,6 +28,8 @@
 /* tamanho dos botoes */
 .neo-btn-small{font-size: 14px;padding:5px;}
 .neo-btn-large{font-size: 20px;padding:15px;}
+.neo-btn-medium{font-size: 16px;padding:12px;}
+.neo-btn-close{font-size: 20px;padding:3px 7px;}
 
 /* borda dos botoes */
 .neo-btn-circle {width: 50px;height: 50px;border-radius: 50%;display: inline-flex;align-items: center;justify-content: center;padding: 0;}
