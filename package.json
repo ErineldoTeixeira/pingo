@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+  ,"scripts": {
+    "build:sass": "sass scss/main.scss css/main.css",
+    "watch:sass": "npx sass --watch scss/main.scss:css/main.css"
+  }
+}
