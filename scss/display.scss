@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: "Inter", sans-serif;}
+a{text-decoration: none;color: inherit;}
+ol,ul{list-style: none;}
+img{max-width: 100%;display: block;}
+button{cursor: pointer;border: none;background: none;}
+html,body{height: 100%;}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: #111;color: #eee;}
+
+// Display utilities
+.pi-block{display: block;}
+.pi-inline{display: inline;}
+.pi-inline-block{display: inline-block;}
+.pi-flex{display: flex;}
+.pi-inline-flex{display: inline-flex;}
+
+// containers
+.pi-container{margin:auto 12px}
+.pi-container-12{max-width: 1200px;margin:auto}
+.pi-container-09{max-width: 900px;margin:auto}
